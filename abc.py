@@ -7,8 +7,8 @@ try:
         # Print the content
         print("File Content:\n", file_content)
         # Read the first line of the file
-        open(file_path) as f
-        f: first_line=f.readline()
+##        open(file_path) as f
+        file: first_line=file.readline()
         # print the first line
         print("Latest version in first line:\n",first_line)
 
